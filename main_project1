@@ -5,4 +5,13 @@ print("Before we begin, what is your characters's name?")
 
 c_name = input()
 
-print("Grest,", c_name + "!", "Let's begin the adventure!")
+print("Great,", c_name + "!", "Let's begin the adventure!")
+
+player = {
+    "name": c_name,
+    "Key": 100,
+    "strength": 10,
+    "defense": 5,
+    "inventory": []
+}
+
