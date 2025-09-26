@@ -9,9 +9,7 @@ print("Great,", c_name + "!", "Let's begin the adventure!")
 
 player = {
     "name": c_name,
-    "Key": 100,
-    "strength": 10,
-    "defense": 5,
-    "inventory": []
+    "health": 100,
+    "coin": 0,
 }
 
