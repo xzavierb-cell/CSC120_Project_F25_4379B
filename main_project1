@@ -1,0 +1,8 @@
+game_name = "Xetra"
+print("Greetings, Welcome to", game_name, "!")
+print("================================")
+print("Before we begin, what is your characters's name?")
+
+c_name = input()
+
+print("Grest,", c_name + "!", "Let's begin the adventure!")
