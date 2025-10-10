@@ -19,7 +19,14 @@ print(f"While exploring, you {event}!")
 
 player = {
     "name": c_name,
-    "coin": 5
+    "health": 100,
+    "coin": 0
 }
-player["coin"] += 1
-print(f"Player", c_name, "found a coin", c_name, "now has" {player["coin"]} "coins.")
+
+if event == "find a coin":
+    player["coin"] += 1
+    print(f"Player {c_name}, found a coin {c_name}, now has {player["coin"]} coins.")
+
+if event == "meet a monster":
+    player["health"] -= 10
+    print(f"Player {c_name}, got hurt during the combat with monster, health is now {player["health"]}.")
